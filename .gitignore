@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python/build/cache
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+
+# Temporary files
+*.tmp
+*.log
+
+# Large/generated outputs
+outputs/
