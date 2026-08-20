@@ -1,0 +1,6 @@
+variable,n,adf_statistic,p_value,lags_used,crit_5pct,result_alpha_0.05,note
+Population (annual level),15,3.9941150136498687,1.0,5,-3.28988060356653,Non-stationary,"2010-2024, 15 annual values"
+Population (first difference),14,1.0953309000166918,0.9951765760550153,5,-3.3671868750000002,Non-stationary,"annual increments, 14 values"
+Population growth rate,14,-10.697672955174887,3.5898024086558673e-19,5,-3.3671868750000002,Stationary,"2011-2024, 14 values"
+Temperature (monthly),120,-1.7156611676393565,0.42306197182914806,11,-2.8886968193364835,Non-stationary,"2015-2024, 120 monthly values"
+Precipitation (monthly),120,-2.6847270546562387,0.07671864876908066,9,-2.8881954545454547,Non-stationary,"2015-2024, 120 monthly values"

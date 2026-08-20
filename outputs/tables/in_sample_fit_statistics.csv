@@ -1,0 +1,11 @@
+quantity,value
+growth-rate intercept b0 (%),127.55397178097274
+growth-rate slope b1 (pp per year),-0.062044317904120405
+growth-rate trend R2 (2011-2023),0.8823493737838117
+"polynomial c0 (persons, t=0 at 2010)",58090.670588235305
+polynomial c1 (persons/yr),651.6792340012917
+polynomial c2 (persons/yr2),89.85479961215259
+"polynomial in-sample R2, 2010-2024",0.924955838903466
+"polynomial in-sample MAPE %, 2010-2024",2.1385119827401384
+"polynomial in-sample RMSE, 2010-2024",2388.110796164983
+"polynomial in-sample R2, 2010-2023",0.9998378076750515

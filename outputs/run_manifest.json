@@ -1,0 +1,48 @@
+{
+  "notebook": "Soran_Population_Forecast.ipynb",
+  "seed": 42,
+  "python": "3.11.15",
+  "packages": {
+    "numpy": "2.4.4",
+    "pandas": "3.0.2",
+    "scipy": "1.17.1",
+    "scikit-learn": "1.8.0",
+    "statsmodels": "0.14.6",
+    "matplotlib": "3.10.9",
+    "openpyxl": "3.1.5"
+  },
+  "inputs": {
+    "population_annual.xlsx": {
+      "sha256": "5ca714c1505dd487a5fdcc28591abf9ad5654149ac90a28573f86e844063be55",
+      "bytes": 8788
+    },
+    "climate_monthly_raw.xlsx": {
+      "sha256": "f1fff038beabf20a886ce1684e3e305244985eb344782b7c7d963f816a872e72",
+      "bytes": 21565
+    },
+    "legacy_population_monthly.xlsx": {
+      "sha256": "b6fd01d7a8c16f671d90087162f3f55a7db012590c9c629e40b2e447a225828f",
+      "bytes": 13183
+    }
+  },
+  "population_series": {
+    "years": [
+      2010,
+      2024
+    ],
+    "n_annual_observations": 15,
+    "census_rebasing_year": 2024
+  },
+  "forecast_years": [
+    2025,
+    2026,
+    2027,
+    2028,
+    2029,
+    2030
+  ],
+  "rolling_origin": {
+    "min_train_years": 8,
+    "n_folds": 7
+  }
+}

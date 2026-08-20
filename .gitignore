@@ -28,5 +28,5 @@ Thumbs.db
 *.tmp
 *.log
 
-# Large/generated outputs
-outputs/
+# Generated outputs are tracked in this repo (they are the reproducibility
+# record); only notebook checkpoints are ignored.

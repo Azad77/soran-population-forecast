@@ -1,0 +1,11 @@
+diagnostic,value
+"growth-rate trend, 2011-2023 (pp/yr)",-0.062044317904120405
+growth rate 2011 / 2023 (%),
+  2011,2.700798083190925
+  2023,2.151034582931688
+residual SD around the growth trend (pp),0.09215484998827196
+R2 of the linear growth-rate trend,0.8823493737838117
+"MAPE of levels implied by that rule, 2010-2023 (%)",0.09960172217794458
+observed growth 2024 (%),18.393226473629774
+growth 2024 expected from the trend (%),1.9762723430330453
+"2024 deviation, in residual SDs",178.14530795379758

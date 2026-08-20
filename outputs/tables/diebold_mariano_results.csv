@@ -1,0 +1,31 @@
+sample,model_1,model_2,dm_stat,p_value,n_independent_forecasts,significant_at_5pct
+all folds (2018-2024),Random walk + drift,Log-linear trend,0.8779310117216289,0.413750818188376,7,False
+all folds (2018-2024),Random walk + drift,Polynomial (deg 2),0.28856675119045605,0.7826227972083075,7,False
+all folds (2018-2024),Random walk + drift,ARIMA (AIC grid),-1.0233491053308115,0.34561871035826064,7,False
+all folds (2018-2024),Random walk + drift,"MLP (8,8)",-1.8140204348851554,0.11960702391082467,7,False
+all folds (2018-2024),Random walk + drift,"MLP (128,128,128)",0.8151928187097365,0.44610613766768337,7,False
+all folds (2018-2024),Log-linear trend,Polynomial (deg 2),-0.8846166124213877,0.41040852734131916,7,False
+all folds (2018-2024),Log-linear trend,ARIMA (AIC grid),-1.4051692779907048,0.20957482291872376,7,False
+all folds (2018-2024),Log-linear trend,"MLP (8,8)",-1.6663923101634794,0.1466850334292955,7,False
+all folds (2018-2024),Log-linear trend,"MLP (128,128,128)",-0.8801461748234962,0.4126411521031601,7,False
+all folds (2018-2024),Polynomial (deg 2),ARIMA (AIC grid),-1.0255692698869627,0.3446520308084069,7,False
+all folds (2018-2024),Polynomial (deg 2),"MLP (8,8)",-1.810803924671755,0.12014113319080866,7,False
+all folds (2018-2024),Polynomial (deg 2),"MLP (128,128,128)",1.0221518847918727,0.34614089722811525,7,False
+all folds (2018-2024),ARIMA (AIC grid),"MLP (8,8)",-1.0456698755208458,0.3359991691234818,7,False
+all folds (2018-2024),ARIMA (AIC grid),"MLP (128,128,128)",1.0407620147426313,0.33809545357196247,7,False
+all folds (2018-2024),"MLP (8,8)","MLP (128,128,128)",1.8069382220815098,0.12078615520707126,7,False
+excluding the 2024 rebasing fold,Random walk + drift,Log-linear trend,-2.9974633878350656,0.030187120254224098,6,True
+excluding the 2024 rebasing fold,Random walk + drift,Polynomial (deg 2),-2.901111144105969,0.03374700794662577,6,True
+excluding the 2024 rebasing fold,Random walk + drift,ARIMA (AIC grid),-1.1648838114342452,0.2966152365859731,6,False
+excluding the 2024 rebasing fold,Random walk + drift,"MLP (8,8)",-12.656412569431046,5.471825417480147e-05,6,True
+excluding the 2024 rebasing fold,Random walk + drift,"MLP (128,128,128)",-1.5878514680028184,0.1731841877880793,6,False
+excluding the 2024 rebasing fold,Log-linear trend,Polynomial (deg 2),2.8728226068740566,0.034879336917410964,6,True
+excluding the 2024 rebasing fold,Log-linear trend,ARIMA (AIC grid),-1.1156888418435533,0.31528538446676735,6,False
+excluding the 2024 rebasing fold,Log-linear trend,"MLP (8,8)",-13.813404766445915,3.57040925715868e-05,6,True
+excluding the 2024 rebasing fold,Log-linear trend,"MLP (128,128,128)",2.6368316229356217,0.046151894684111294,6,True
+excluding the 2024 rebasing fold,Polynomial (deg 2),ARIMA (AIC grid),-1.161770343059506,0.29776740037837457,6,False
+excluding the 2024 rebasing fold,Polynomial (deg 2),"MLP (8,8)",-12.649128974703544,5.487187036434804e-05,6,True
+excluding the 2024 rebasing fold,Polynomial (deg 2),"MLP (128,128,128)",0.17926226778937399,0.8647696957917015,6,False
+excluding the 2024 rebasing fold,ARIMA (AIC grid),"MLP (8,8)",-0.2743535814668957,0.7947870800376666,6,False
+excluding the 2024 rebasing fold,ARIMA (AIC grid),"MLP (128,128,128)",1.164098467167072,0.29690548788066096,6,False
+excluding the 2024 rebasing fold,"MLP (8,8)","MLP (128,128,128)",12.519812174592516,5.7686982765092765e-05,6,True
